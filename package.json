@@ -1,0 +1,23 @@
+{
+  "name": "inngest-agentkit-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@inngest/agent-kit": "^0.8.0",
+    "@neondatabase/mcp-server-neon": "^0.3.7",
+    "@smithery/sdk": "^1.4.3",
+    "dotenv": "^16.5.0",
+    "zod": "^3.25.51"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "tsx": "^4.19.4"
+  }
+}
