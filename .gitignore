@@ -1,2 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment variables
 .env
-node_modules
+.env.local
+.env.production
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime
+.DS_Store
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Production config (if any)
+production.env
