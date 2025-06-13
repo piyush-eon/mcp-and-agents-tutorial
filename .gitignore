@@ -28,3 +28,4 @@ npm-debug.log*
 
 # Production config (if any)
 production.env
+.vercel
