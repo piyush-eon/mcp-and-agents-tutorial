@@ -1,7 +1,8 @@
 {
-  "functions": {
-    "api/inngest.ts": {
-      "runtime": "nodejs18.x"
+  "builds": [
+    {
+      "src": "api/inngest.ts",
+      "use": "@vercel/node"
     }
-  }
+  ]
 }
