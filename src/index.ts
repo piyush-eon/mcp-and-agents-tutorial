@@ -11,6 +11,8 @@ import dotenv from "dotenv";
 // Load environment variables
 dotenv.config();
 
+const PORT = process.env.PORT || 3010;
+
 const neonServerUrl = `https://server.smithery.ai/neon/mcp?api_key=${process.env.SMITHERY_API_KEY}&profile=unusual-anaconda-WoNulZ`;
 
 console.log("🔗 Connected to Neon MCP server");
@@ -143,7 +145,7 @@ const server = createServer({
   networks: [contentCreationNetwork],
 });
 
-server.listen(3010, () => {
+server.listen(PORT, () => {
   console.log("🚀 Content Creation Assistant running on http://localhost:3010");
   console.log("🗄️ Connected to Neon PostgreSQL via MCP");
   console.log("");
