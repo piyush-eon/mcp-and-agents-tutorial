@@ -16,6 +16,7 @@
     "@neondatabase/mcp-server-neon": "^0.3.7",
     "@smithery/sdk": "^1.4.3",
     "dotenv": "^16.5.0",
+    "inngest": "^3.39.1",
     "zod": "^3.25.51"
   },
   "devDependencies": {

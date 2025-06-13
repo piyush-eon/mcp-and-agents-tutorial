@@ -111,7 +111,7 @@ const contentCreatorAgent = createAgent({
 });
 
 // Create the Network
-const contentCreationNetwork = createNetwork({
+export const contentCreationNetwork = createNetwork({
   name: "content-creation-assistant",
   agents: [contentCreatorAgent],
 
